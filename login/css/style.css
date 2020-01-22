@@ -1,0 +1,46 @@
+.zmdi-infosus {
+    background-image: url('../images/iconlogo.png');
+}
+
+.botao{
+    display:flex;
+    justify-content: space-between;
+}
+
+.botaoesc{
+    font-family: Poppins-Medium;
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.2;
+
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    min-width: 120px;
+    height: 50px;
+    border-radius: 25px;
+
+    background: #9152f8;
+    background: -webkit-linear-gradient(bottom, #7579ff, #7cb3d2);
+    background: -o-linear-gradient(bottom, #7579ff, #7cb3d2);
+    background: -moz-linear-gradient(bottom, #7579ff, #7cb3d2);
+    background: linear-gradient(bottom, #7579ff, #7cb3d2);
+    position: relative;
+    z-index: 1;
+
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.opcao{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
